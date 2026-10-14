@@ -1900,7 +1900,7 @@ async function fetchGitHubStars() {
   const starCountEl = document.getElementById('star-count-num');
   if (!starCountEl) return;
   try {
-    const res = await fetch('https://api.github.com/repos/ishara-madu/gemini-watermark-remover');
+    const res = await fetch('https://api.github.com/repos/bachduongsolutions/gemini-watermark-remover');
     if (res.ok) {
       const data = await res.json();
       if (typeof data.stargazers_count === 'number') {

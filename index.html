@@ -367,26 +367,6 @@
             <iconify-icon icon="ph:envelope-simple-bold" width="18"></iconify-icon>
             <span>Contact Us</span>
           </a>
-
-          <div class="mobile-promo-card">
-            <div class="mobile-promo-header">
-              <span class="mobile-promo-label">Recommended Tool</span>
-              <span class="badge-featured">Free &amp; Fast</span>
-            </div>
-            <a href="https://ishara-madu.github.io/online-image-converter/" target="_blank" rel="noopener noreferrer"
-              class="mobile-promo-link" data-auto-favicon="https://ishara-madu.github.io/online-image-converter/">
-              <div class="dropdown-item-icon promo-icon">
-                <img src="https://ishara-madu.github.io/online-image-converter/favicon.ico"
-                  onerror="this.onerror=null; this.src='https://www.google.com/s2/favicons?domain=ishara-madu.github.io&amp;sz=64';"
-                  alt="Online Image Converter Favicon" class="tool-favicon-img" width="22" height="22" loading="lazy" />
-              </div>
-              <div class="mobile-promo-info">
-                <strong>Online Image Converter</strong>
-                <p>Convert WebP, PNG, JPG, AVIF in browser</p>
-              </div>
-              <iconify-icon icon="ph:arrow-square-out-bold" width="16" class="mobile-promo-ext"></iconify-icon>
-            </a>
-          </div>
         </div>
 
         <div class="header-action-buttons">
@@ -1358,37 +1338,6 @@
   </main>
 
   <script src="./main.js"></script>
-  <!-- BuyMeACoffee Widget (Lazy Loaded for Optimal Core Web Vitals) -->
-  <script>
-    (function () {
-      function loadBMCWidget() {
-        if (window.__bmcWidgetLoaded) return;
-        window.__bmcWidgetLoaded = true;
-        var bmc = document.createElement('script');
-        bmc.setAttribute('data-name', 'BMC-Widget');
-        bmc.setAttribute('data-cfasync', 'false');
-        bmc.src = 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js';
-        bmc.setAttribute('data-id', 'ishara.madu');
-        bmc.setAttribute('data-description', 'Support me on Buy me a coffee!');
-        bmc.setAttribute('data-message', '');
-        bmc.setAttribute('data-color', '#FF502B');
-        bmc.setAttribute('data-position', 'Right');
-        bmc.setAttribute('data-x_margin', '18');
-        bmc.setAttribute('data-y_margin', '18');
-        document.body.appendChild(bmc);
-      }
-      if (document.readyState === 'complete') {
-        setTimeout(loadBMCWidget, 2000);
-      } else {
-        window.addEventListener('load', function () {
-          setTimeout(loadBMCWidget, 2000);
-        });
-      }
-      ['scroll', 'touchstart', 'mousemove', 'keydown'].forEach(function (e) {
-        window.addEventListener(e, loadBMCWidget, { once: true, passive: true });
-      });
-    })();
-  </script>
 </body>
 
 </html>
